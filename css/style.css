@@ -86,3 +86,13 @@ main {
     box-shadow: inset -4px 4px 0 #222;
     font-size: 0.9rem;
 }
+
+.pokemon_types {
+    position: absolute;
+    top: 75%;
+    left: 10%;
+    width: 65%;
+    font-size: clamp(8px, 5vw, 25px);
+    transform: translate(-25%, 0);
+    font-weight: 600;
+}
